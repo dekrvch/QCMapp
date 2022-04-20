@@ -1,0 +1,28 @@
+attrs:
+    Plot:
+        background_fill_color: "#ffffff"
+    Figure:
+       outline_line_color: '#000000'
+    Title:
+        text_font: 'helvetica'
+        text_font_size: '14pt'
+        text_font_style: "normal"
+        align: "center"
+    Axis:
+        axis_label_text_font_size: 'helvetica'
+        axis_label_text_font_style: 'normal'
+        axis_label_text_font_size: '12pt'
+        major_label_text_font: 'helvetica'
+        major_label_text_font_style: 'normal'
+        major_label_text_font_size: '12pt'
+        minor_tick_line_alpha: 0
+        major_tick_in: 7
+        major_tick_out: 0
+    Grid:
+        'grid_line_alpha': 0
+    PrintfTickFormatter:
+        format: "%4.1e" 
+    Circle:
+        size: 12
+        fill_color: 'gray'
+        line_alpha: 0
